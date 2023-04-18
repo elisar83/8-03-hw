@@ -3,7 +3,6 @@
 ## Задание 1
 
 Что нужно сделать:
-![image](https://user-images.githubusercontent.com/122297912/232836738-94f44016-d49e-4c0c-9505-fde7e47d825c.png)
 
 Зарегистрируйте аккаунт на GitHub.
 Создайте публичный репозиторий. Обязательно поставьте галочку в поле «Initialize this repository with a README».
