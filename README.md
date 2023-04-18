@@ -1,53 +1,40 @@
-# Домашние задания по курсу «Виртуализация, автоматизация и CI/CD»
+# Git - Елизар Самсонов
 
-В этом репозитории собраны ваши домашние задания к каждой лекции. 
+## Задание 1
 
-Задачи без звёздочки обязательные. Их выполнение необходимо для получения зачёта и диплома о профессиональной переподготовке.
+Что нужно сделать:
+![image](https://user-images.githubusercontent.com/122297912/232836738-94f44016-d49e-4c0c-9505-fde7e47d825c.png)
 
-Задачи со звёздочкой (*) являются дополнительными задачами или задачами повышенной сложности. Они необязательны для выполнения, но помогут вам лучше разобраться в теме.
+Зарегистрируйте аккаунт на GitHub.
+Создайте публичный репозиторий. Обязательно поставьте галочку в поле «Initialize this repository with a README».
+Склонируйте репозиторий, используя https протокол git clone ....
+Перейдите в каталог с клоном репозитория.
+Произведите первоначальную настройку Git, указав своё настоящее имя и email: git config --global user.name и git config --global user.email johndoe@example.com.
+Выполните команду git status и запомните результат.
+Отредактируйте файл README.md любым удобным способом, переведя файл в состояние Modified.
+Ещё раз выполните git status и продолжайте проверять вывод этой команды после каждого следующего шага.
+Посмотрите изменения в файле README.md, выполнив команды git diff и git diff --staged.
+Переведите файл в состояние staged или, как говорят, добавьте файл в коммит, командой git add README.md.
+Ещё раз выполните команды git diff и git diff --staged.
+Теперь можно сделать коммит git commit -m 'First commit'.
+Сделайте git push origin master.
+В качестве ответа добавьте ссылку на этот коммит в ваш md-файл с решением.
 
-Любые вопросы по решению задач задавайте в чате учебной группы. Ссылку вы найдёте в письме на вашей электронной почте.
+## Задание 2
+Что нужно сделать:
 
+Создайте файл .gitignore (обратите внимание на точку в начале файла) и проверьте его статус сразу после создания.
+Добавьте файл .gitignore в следующий коммит git add....
+Напишите правила в этом файле, чтобы игнорировать любые файлы .pyc, а также все файлы в директории cache.
+Сделайте коммит и пуш.
+В качестве ответа добавьте ссылку на этот коммит в ваш md-файл с решением.
 
-## Модуль: Виртуализация
+## Задание 3
+Что нужно сделать:
 
-1. [Виртуализация и облачные решения: AWS, GCP, Yandex Cloud, OpenStack](https://github.com/netology-code/sdvps-homeworks/blob/main/6-01.md).
-
-2. [Типы виртуализации: KVM, QEMU](https://github.com/netology-code/sdvps-homeworks/blob/main/6-02.md).
-
-3. [Docker. Часть 1](https://github.com/netology-code/sdvps-homeworks/blob/main/6-03.md).
-
-4. [Docker. Часть 2](https://github.com/netology-code/sdvps-homeworks/blob/main/6-04.md).
-
-5. [Kubernetes. Часть 1](https://github.com/netology-code/sdvps-homeworks/blob/main/6-05.md).
-
-6. [Kubernetes. Часть 2](https://github.com/netology-code/sdvps-homeworks/blob/main/6-06.md).
-
-
-## Модуль: Автоматизация администрирования инфраструктуры
-
-1. [Ansible. Часть 1](https://github.com/netology-code/sdvps-homeworks/blob/main/7-01.md).
-
-2. [Ansible. Часть 2](https://github.com/netology-code/sdvps-homeworks/blob/main/7.1_part_2.md).
-
-3. [Terraform](https://github.com/netology-code/sdvps-homeworks/blob/main/7-02.md).
-
-4. [Подъём инфраструктуры в Yandex Cloud](https://github.com/netology-code/sdvps-homeworks/blob/main/7-03.md).
-
-
-## Модуль: Введение в DevOps
-
-1. [Git](https://github.com/netology-code/sdvps-homeworks/blob/main/8-01.md).
-
-2. [Что такое DevOps. CI/CD](https://github.com/netology-code/sdvps-homeworks/blob/main/8-02.md).
-
-3. [GitLab](https://github.com/netology-code/sdvps-homeworks/blob/main/8-03.md).
-
-
-
-
-
-
-
-
-
+Создайте новую ветку dev и переключитесь на неё.
+Создайте файл test.sh с произвольным содержимым.
+Сделайте несколько коммитов и пушей, имитируя активную работу над этим файлом.
+Сделайте мердж этой ветки в основную. Сначала нужно переключиться на неё, а потом вызывать git merge.
+Сделайте коммит и пуш.
+В качестве ответа прикрепите ссылку на граф коммитов https://github.com/ваш-логин/ваш-репозиторий/network в ваш md-файл с решением.
